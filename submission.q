@@ -5,7 +5,14 @@ nums: 1+ til 10
 
 /Question 2
 
-nums[7,8,9]
+/Simple
+nums[7 8 9]
+
+/Robust
+nums[(count nums) +  neg 1+til 3]
+
+/Robust ascending
+nums[(count nums) + asc neg 1 + til 3]
 
 /Question 3
 prices: 15 22 18 30 25
@@ -15,7 +22,7 @@ max prices
 q4:{[x] 2*x}
 
 /Question 5
-q5: (`name, `age, `city)!("John"; 25; "NYC")
+q5: (`name`age`city)!("John"; 25; "NYC")
 
 /Section 2
 /Question 6
